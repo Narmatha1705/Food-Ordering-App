@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:khalti="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <com.khalti.widget.KhaltiButton
+        android:id="@+id/khalti_button"
+        android:layout_width="278dp"
+        android:layout_height="274dp"
+        khalti:layout_constraintBottom_toBottomOf="parent"
+        khalti:layout_constraintEnd_toEndOf="parent"
+        khalti:layout_constraintHorizontal_bias="0.571"
+        khalti:layout_constraintStart_toStartOf="parent"
+        khalti:layout_constraintTop_toTopOf="parent"
+        khalti:layout_constraintVertical_bias="0.332" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

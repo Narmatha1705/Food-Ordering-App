@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.foodscout.AdminFrontpage">
+
+    <item
+        android:title="MyAccount"
+        android:id="@+id/account"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_account_circle_white"
+        app:showAsAction="always"
+        >
+        <menu>
+                <item
+                    android:id="@+id/action_login"
+                    android:orderInCategory="100"
+                    android:title="Login"
+                    />
+                <item
+                    android:id="@+id/action_logout"
+                    android:orderInCategory="100"
+                    android:title="Logout"
+                    />
+
+        </menu>
+    </item>
+</menu>

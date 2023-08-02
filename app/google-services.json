@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158625700962",
+    "firebase_url": "https://foodscout-abf5e.firebaseio.com",
+    "project_id": "foodscout-abf5e",
+    "storage_bucket": "foodscout-abf5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158625700962:android:93420955e9c45c2f3e453b",
+        "android_client_info": {
+          "package_name": "com.example.foodscout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158625700962-k5pup4dlp4ialt8tfm2ftok9v2rguqt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodscout",
+            "certificate_hash": "b385f61aebfd53f70df6b2e98ea18b9e8ba7f46d"
+          }
+        },
+        {
+          "client_id": "158625700962-u7l8h2kjoktvs3hd5dqi3l5t0q2anm58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMYm02AB2CSIpUBKyOXvDnxSV0iObwqVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158625700962-u7l8h2kjoktvs3hd5dqi3l5t0q2anm58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

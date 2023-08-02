@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.foodscout.AdminFrontpage">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        >
+    </item>
+    <item
+        android:id="@+id/nav_category"
+        android:title="Category"
+        android:icon="@drawable/ic_category"
+        >
+    </item>
+    <item
+        android:id="@+id/nav_add_admin"
+        android:title="Add Sub Admin"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        >
+    </item>
+</menu>

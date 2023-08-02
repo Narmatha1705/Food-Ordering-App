@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_name"
+        android:title="Name"
+        android:icon="@drawable/ic_home"></item>
+    <item
+        android:id="@+id/sort_inc_pri"
+        android:title="Price Increasing"
+        android:icon="@drawable/ic_category"
+        >
+    </item>
+    <item
+        android:id="@+id/sort_dec_pri"
+        android:title="Price Decreasing"
+        android:icon="@drawable/ic_category"
+        >
+    </item>
+</menu>

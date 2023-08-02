@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_checkout">
+
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="-18dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_location_pin"
+        />
+
+   <SearchView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/search_location"
+       android:queryHint="Search"
+       android:iconifiedByDefault="false"
+       android:layout_margin="10dp"
+       android:elevation="5dp"/>
+    <Button
+        android:id="@+id/btn_search_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Set Address"
+        android:background="@color/colorbrown"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_margin="4dp"/>
+
+</RelativeLayout>

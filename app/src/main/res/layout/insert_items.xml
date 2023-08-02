@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/insertitem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbrown"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Insert Item"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/itemImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertitem"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/seltimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        app:layout_constraintBottom_toBottomOf="@+id/itemImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemImg"
+        app:layout_constraintTop_toBottomOf="@+id/insertitem" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:hint="Price"
+        app:layout_constraintBottom_toTopOf="@+id/inx"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemImg"
+        app:layout_constraintTop_toBottomOf="@+id/seltimg"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <EditText
+        android:id="@+id/Itemnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemImg"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <EditText
+        android:id="@+id/inx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        app:layout_constraintBottom_toTopOf="@+id/itStore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/Itemnm"
+        app:layout_constraintTop_toBottomOf="@+id/itemImg"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        app:layout_constraintBottom_toTopOf="@+id/itStore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemImg"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <EditText
+        android:id="@+id/exclusive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="To make exclusive write '1' else blank"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/itStore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <Button
+        android:id="@+id/itStore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Itemnm"
+        app:layout_constraintVertical_bias="0.36" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
